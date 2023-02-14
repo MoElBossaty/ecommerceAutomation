@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 19 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 19 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;User could login with valid email and password&quot;, &quot;F02_Login | users could use login functionality t...)">runScenario("User could login with valid email and password", "F02_Login | users could use login functionality t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could select any category&quot;, &quot;hoverCategories | users could select any category&quot;)">runScenario("user could select any category", "hoverCategories | users could select any category")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could create new account with valid data&quot;, &quot;F01_Registration | guest users could create new ac...)">runScenario("user could create new account with valid data", "F01_Registration | guest users could create new ac...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could login with valid email and password&quot;, &quot;F02_Login | users could use login functionality t...)">runScenario("user could login with valid email and password", "F02_Login | users could use login functionality t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could search for sku&quot;, &quot;Search | users could search&quot;)">runScenario("user could search for sku", "Search | users could search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could open the facebook page&quot;, &quot;followUs | users could open facebook, twitter , rss , youtube ...)">runScenario("user could open the facebook page", "followUs | users could open facebook, twitter , rss , youtube ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could select and open the rss page&quot;, &quot;followUs | users could open facebook, twitter , rss , yo...)">runScenario("user could select and open the rss page", "followUs | users could open facebook, twitter , rss , yo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could search for laptop&quot;, &quot;Search | users could search&quot;)">runScenario("user could search for laptop", "Search | users could search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could search for laptop&quot;, &quot;Search | users could search&quot;)">runScenario("user could search for laptop", "Search | users could search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could verify the number in wishlists&quot;, &quot;Wishlist | users could add any item to wishlists&quot;)">runScenario("user could verify the number in wishlists", "Wishlist | users could add any item to wishlists")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could search for sku&quot;, &quot;Search | users could search&quot;)">runScenario("user could search for sku", "Search | users could search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could select and open the youtube page&quot;, &quot;followUs | users could open facebook, twitter , rss ...)">runScenario("user could select and open the youtube page", "followUs | users could open facebook, twitter , rss ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;Verify Euro Symbol on 4 products displayed in Home page&quot;, &quot;F03_currencies | user change currency in...)">runScenario("Verify Euro Symbol on 4 products displayed in Home page", "F03_currencies | user change currency in...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could search for laptop&quot;, &quot;Search | users could search&quot;)">runScenario("user could search for laptop", "Search | users could search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could search for sku&quot;, &quot;Search | users could search&quot;)">runScenario("user could search for sku", "Search | users could search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could add any item to wishlists&quot;, &quot;Wishlist | users could add any item to wishlists&quot;)">runScenario("user could add any item to wishlists", "Wishlist | users could add any item to wishlists")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could select and open the twitter page&quot;, &quot;followUs | users could open facebook, twitter , rss ...)">runScenario("user could select and open the twitter page", "followUs | users could open facebook, twitter , rss ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could select and open the first home slider&quot;, &quot;homeSliders | users could select and open home ...)">runScenario("user could select and open the first home slider", "homeSliders | users could select and open home ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.testRunner.Runners" hash-for-method="runScenario(&quot;user could select and open the second home slider&quot;, &quot;homeSliders | users could select and open home...)">runScenario("user could select and open the second home slider", "homeSliders | users could select and open home...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.example.testRunner.Runners</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User could login with valid email and password&quot;, &quot;F02_Login | users could use login functionality t...)">
+                  </a> <!-- runScenario("User could login with valid email and password", "F02_Login | users could use login functionality t...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User could login with valid email and password", "F02_Login | users could use login functionality to use their accounts")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could select any category&quot;, &quot;hoverCategories | users could select any category&quot;)">
+                  </a> <!-- runScenario("user could select any category", "hoverCategories | users could select any category") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could select any category", "hoverCategories | users could select any category")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could create new account with valid data&quot;, &quot;F01_Registration | guest users could create new ac...)">
+                  </a> <!-- runScenario("user could create new account with valid data", "F01_Registration | guest users could create new ac...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could create new account with valid data", "F01_Registration | guest users could create new accounts")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could login with valid email and password&quot;, &quot;F02_Login | users could use login functionality t...)">
+                  </a> <!-- runScenario("user could login with valid email and password", "F02_Login | users could use login functionality t...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could login with valid email and password", "F02_Login | users could use login functionality to use their accounts")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could search for sku&quot;, &quot;Search | users could search&quot;)">
+                  </a> <!-- runScenario("user could search for sku", "Search | users could search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could search for sku", "Search | users could search")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could open the facebook page&quot;, &quot;followUs | users could open facebook, twitter , rss , youtube ...)">
+                  </a> <!-- runScenario("user could open the facebook page", "followUs | users could open facebook, twitter , rss , youtube ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could open the facebook page", "followUs | users could open facebook, twitter , rss , youtube links")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could select and open the rss page&quot;, &quot;followUs | users could open facebook, twitter , rss , yo...)">
+                  </a> <!-- runScenario("user could select and open the rss page", "followUs | users could open facebook, twitter , rss , yo...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could select and open the rss page", "followUs | users could open facebook, twitter , rss , youtube links")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could search for laptop&quot;, &quot;Search | users could search&quot;)">
+                  </a> <!-- runScenario("user could search for laptop", "Search | users could search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could search for laptop", "Search | users could search")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could search for laptop&quot;, &quot;Search | users could search&quot;)">
+                  </a> <!-- runScenario("user could search for laptop", "Search | users could search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could search for laptop", "Search | users could search")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could verify the number in wishlists&quot;, &quot;Wishlist | users could add any item to wishlists&quot;)">
+                  </a> <!-- runScenario("user could verify the number in wishlists", "Wishlist | users could add any item to wishlists") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could verify the number in wishlists", "Wishlist | users could add any item to wishlists")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could search for sku&quot;, &quot;Search | users could search&quot;)">
+                  </a> <!-- runScenario("user could search for sku", "Search | users could search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could search for sku", "Search | users could search")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could select and open the youtube page&quot;, &quot;followUs | users could open facebook, twitter , rss ...)">
+                  </a> <!-- runScenario("user could select and open the youtube page", "followUs | users could open facebook, twitter , rss ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could select and open the youtube page", "followUs | users could open facebook, twitter , rss , youtube links")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Euro Symbol on 4 products displayed in Home page&quot;, &quot;F03_currencies | user change currency in...)">
+                  </a> <!-- runScenario("Verify Euro Symbol on 4 products displayed in Home page", "F03_currencies | user change currency in...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Euro Symbol on 4 products displayed in Home page", "F03_currencies | user change currency in the home page")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could search for laptop&quot;, &quot;Search | users could search&quot;)">
+                  </a> <!-- runScenario("user could search for laptop", "Search | users could search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could search for laptop", "Search | users could search")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could search for sku&quot;, &quot;Search | users could search&quot;)">
+                  </a> <!-- runScenario("user could search for sku", "Search | users could search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could search for sku", "Search | users could search")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could add any item to wishlists&quot;, &quot;Wishlist | users could add any item to wishlists&quot;)">
+                  </a> <!-- runScenario("user could add any item to wishlists", "Wishlist | users could add any item to wishlists") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could add any item to wishlists", "Wishlist | users could add any item to wishlists")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could select and open the twitter page&quot;, &quot;followUs | users could open facebook, twitter , rss ...)">
+                  </a> <!-- runScenario("user could select and open the twitter page", "followUs | users could open facebook, twitter , rss ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could select and open the twitter page", "followUs | users could open facebook, twitter , rss , youtube links")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could select and open the first home slider&quot;, &quot;homeSliders | users could select and open home ...)">
+                  </a> <!-- runScenario("user could select and open the first home slider", "homeSliders | users could select and open home ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could select and open the first home slider", "homeSliders | users could select and open home sliders")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could select and open the second home slider&quot;, &quot;homeSliders | users could select and open home...)">
+                  </a> <!-- runScenario("user could select and open the second home slider", "homeSliders | users could select and open home...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could select and open the second home slider", "homeSliders | users could select and open home sliders")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.example.testRunner.Runners&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'org.example.testRunner.Runners')
+data.setCell(0, 3, 180);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'org.example.testRunner.Runners')
+data.setCell(1, 3, 23);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'org.example.testRunner.Runners')
+data.setCell(2, 3, 20);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'org.example.testRunner.Runners')
+data.setCell(3, 3, 19);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'org.example.testRunner.Runners')
+data.setCell(4, 3, 15);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'org.example.testRunner.Runners')
+data.setCell(5, 3, 14);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'org.example.testRunner.Runners')
+data.setCell(6, 3, 14);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'org.example.testRunner.Runners')
+data.setCell(7, 3, 13);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'org.example.testRunner.Runners')
+data.setCell(8, 3, 12);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'org.example.testRunner.Runners')
+data.setCell(9, 3, 12);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'org.example.testRunner.Runners')
+data.setCell(10, 3, 11);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'org.example.testRunner.Runners')
+data.setCell(11, 3, 11);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'org.example.testRunner.Runners')
+data.setCell(12, 3, 10);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'org.example.testRunner.Runners')
+data.setCell(13, 3, 9);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'org.example.testRunner.Runners')
+data.setCell(14, 3, 9);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'org.example.testRunner.Runners')
+data.setCell(15, 3, 9);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'org.example.testRunner.Runners')
+data.setCell(16, 3, 8);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'org.example.testRunner.Runners')
+data.setCell(17, 3, 8);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'org.example.testRunner.Runners')
+data.setCell(18, 3, 7);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 404 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.testRunner.Runners</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@3d3e5463)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could create new account with valid data", "F01_Registration | guest users could create new ac...)</span>
+                <span class="method-start">1676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could login with valid email and password", "F02_Login | users could use login functionality t...)</span>
+                <span class="method-start">1872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User could login with valid email and password", "F02_Login | users could use login functionality t...)</span>
+                <span class="method-start">1894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify Euro Symbol on 4 products displayed in Home page", "F03_currencies | user change currency in...)</span>
+                <span class="method-start">1910 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could search for laptop", "Search | users could search")</span>
+                <span class="method-start">1925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could search for laptop", "Search | users could search")</span>
+                <span class="method-start">1940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could search for laptop", "Search | users could search")</span>
+                <span class="method-start">1965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could search for sku", "Search | users could search")</span>
+                <span class="method-start">1979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could search for sku", "Search | users could search")</span>
+                <span class="method-start">1999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could search for sku", "Search | users could search")</span>
+                <span class="method-start">2016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could select any category", "hoverCategories | users could select any category")</span>
+                <span class="method-start">2035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could select and open the first home slider", "homeSliders | users could select and open home ...)</span>
+                <span class="method-start">2050 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could select and open the second home slider", "homeSliders | users could select and open home...)</span>
+                <span class="method-start">2062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could open the facebook page", "followUs | users could open facebook, twitter , rss , youtube ...)</span>
+                <span class="method-start">2074 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could select and open the twitter page", "followUs | users could open facebook, twitter , rss ...)</span>
+                <span class="method-start">2086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could select and open the rss page", "followUs | users could open facebook, twitter , rss , yo...)</span>
+                <span class="method-start">2096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could select and open the youtube page", "followUs | users could open facebook, twitter , rss ...)</span>
+                <span class="method-start">2105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could add any item to wishlists", "Wishlist | users could add any item to wishlists")</span>
+                <span class="method-start">2115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could verify the number in wishlists", "Wishlist | users could add any item to wishlists")</span>
+                <span class="method-start">2126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">2137 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

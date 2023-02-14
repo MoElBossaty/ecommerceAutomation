@@ -1,0 +1,61 @@
+-------------------------------------------------------------------------------
+Test set: org.example.testRunner.Runners
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 19, Errors: 0, Skipped: 0, Time elapsed: 5.236 s <<< FAILURE! - in org.example.testRunner.Runners
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.197 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.018 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.015 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.014 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.016 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.024 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.014 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.018 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.02 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.007 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.015 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.01 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.013 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.014 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.007 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.008 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.009 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.013 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 0.007 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in org.example.stepDefs.D05_hoverCategoriesStepDef.userAtHomePage() and org.example.stepDefs.D06_homeSlidersStepDef.UserGoToHomePage()
+
